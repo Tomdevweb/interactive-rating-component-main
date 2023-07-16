@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Overpass", sans-serif;
+  background-color: hsl(0, 0%, 0%);
+  color: #fff;
+  min-height: 100vh;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+.container,
+.container-2 {
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(216, 12%, 8%);
+  max-width: 400px;
+  padding: 2rem;
+  border-radius: 30px;
+}
+
+.container-2 {
+  align-items: center;
+}
+.hide {
+  display: none;
+}
+
+.body-container-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.star-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(213, 19%, 18%);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.star-icon-size {
+  width: 18px;
+  height: 18px;
+}
+
+h1 {
+  margin-top: 2rem;
+  font-weight: 400;
+}
+p {
+  font-size: 15px;
+  margin-bottom: 25px;
+  color: hsl(217, 12%, 63%);
+}
+
+.paragraph-2 {
+  text-align: center;
+}
+
+.numbers-container {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.numbers {
+  width: 3.1rem;
+  height: 3.1rem;
+  background-color: hsl(213, 19%, 18%);
+  border: none;
+  border-radius: 50%;
+  font-weight: bold;
+  color: hsl(217, 12%, 63%);
+}
+
+.numbers:hover {
+  cursor: pointer;
+  background-color: hsl(216, 12%, 54%);
+  color: #fff;
+}
+
+.numbers:focus {
+  background-color: hsl(25, 97%, 53%);
+  color: #fff;
+}
+
+.submit {
+  border: none;
+  cursor: pointer;
+  background-color: hsl(25, 97%, 53%);
+  width: 100%;
+  height: 2.75rem;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 400;
+  letter-spacing: 2px;
+  margin-top: 25px;
+}
+
+.submit:active {
+  background-color: #fff;
+  color: hsl(25, 97%, 53%);
+}
+
+.rating-msg {
+  background-color: hsl(213, 19%, 18%);
+  padding: 5px 15px;
+  border-radius: 20px;
+  color: hsl(25, 97%, 53%);
+  margin: 30px 0 0 0;
+}
+.thks-img {
+  width: 50%;
+}
+
+@media (max-width: 426px) {
+  #container,
+  #container-2 {
+    font-size: 14px;
+  }
+}
+
+/* A améliorer (responsive pas juste)*/
